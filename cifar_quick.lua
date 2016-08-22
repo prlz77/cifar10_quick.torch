@@ -20,14 +20,7 @@ local opt = lapp[[
    -r,--learningRate  (default 0.001)       learning rate, for SGD only
    -b,--batchSize     (default 100)         batch size
    -m,--momentum      (default 0.9)         momentum, for SGD only
-   --beta             (default 0)           regularization coef
-   --sigma            (default 10)          sigma regularization variable
    --maxEpoch         (default 10)          max epoch
-   --onGrad           (default 0)           update gradient or weights when regularization
-   --normalize        (default 0)           normalize gradient or weights when regularization
-   --optimLinear      (default 0)           optimize also linear layers in cnn
-   --redNegCorr	      (default 1)           reduce negative correlation as well
-   --wDecay           (default 0.004)       weight decay
    --trainPath        (default ./cifar10-train.t7)
    --testPath         (default ./cifar10-test.t7)
 ]]
