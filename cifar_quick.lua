@@ -23,6 +23,7 @@ local opt = lapp[[
    --maxEpoch         (default 10)          max epoch
    --trainPath        (default ./cifar10-train.t7)
    --testPath         (default ./cifar10-test.t7)
+   --wDecay           (default 0.004)       Weight Decay
 ]]
 
 -- model definition
